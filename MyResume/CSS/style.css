@@ -11,10 +11,8 @@ body {
     line-height: 1.6;
 }
 
-/* Cabeçalho */
 header {
     background-color: #26dd91;
-    /* Azul do topo */
     color: white;
     text-align: center;
     padding: 30px 20px;
