@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Desenvolvedor</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Vítor Henrique Vercezi</h1>
+        <p>Desenvolvedor | Aluno</p>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar card">
+            <img src="images/Foto.png" alt="Foto de Perfil" class="profile-img">
+
+            <h2>Sobre Mim</h2>
+            <p>Sou um desenvolvedor com foco no ecossistema .NET, adoro aprender coisas novas e aplicar esses
+                conhecimentos em projetos reais.</p>
+
+            <h2>Contato</h2>
+            <p>Email: vitorhvercezi@gmail.com</p>
+            <p>Telefone: +55 (16) 98114 6660</p>
+
+            <h2 class="social-title">Redes Sociais</h2>
+            <div class="social-links">
+                <a href="https://github.com/HayziVV" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/vítor-vercezi-b7917335b/" target="_blank"><i
+                        class="fab fa-linkedin"></i>
+                    LinkedIn</a>
+                <a href="mailto:vitorhvercezi@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+            </div>
+        </aside>
+
+        <main class="main-content card">
+
+            <div class="tabs">
+                <button class="tab-btn active" onclick="showTab(event, 'info')">Informações</button>
+                <button class="tab-btn" onclick="showTab(event, 'projetos')">Projetos</button>
+            </div>
+
+            <div id="info" class="tab-content">
+                <h2>Educação</h2>
+
+                <div class="item">
+                    <h3>Faculdade de Tecnologia de Ribeirão Preto (Fatec)</h3>
+                    <p class="date">2024 - Presente</p>
+                    <p>Tecnólogo em Análise e Desenvolvimento de Sistemas</p>
+                </div>
+
+                <h2>Habilidades</h2>
+                <ul class="skills-list">
+                    <li>Backend: C#, C/C++, Python</li>
+                    <li>Web: HTML, CSS, JavaScript</li>
+                    <li>Databases: MySQL, Oracle SQL, Firebase</li>
+                    <li>Frameworks: .NET 10.0, Flutter</li>
+                </ul>
+            </div>
+
+            <div id="projetos" class="tab-content" style="display: none;">
+                <h2>Meus Projetos</h2>
+                <div class="item">
+                    <h3>Projeto 1 - Jogo de Xadrez</h3>
+                    <p>Jogo de Xadrez feito utilizando a framework .NET 10.0(C#).</p>
+                </div>
+                <div class="item">
+                    <h3>Projeto 2 - Sistema de gestão de vendas</h3>
+                    <p>Feito com a utilização do Asp.NET Core MVC com a framework .NET 9.0, utilizando o SGDB MySQL, o
+                        banco
+                        de dados foi configurado a partir da Entity Framework Core.</p>
+                </div>
+                <div class="item">
+                    <h3>Projeto 3 - Desenvolvimento de um jogo de turnos para mobile & desktop</h3>
+                    <p>Feito com a utilização da framework Flutter com a Flame Engine, o projeto segue em
+                        desenvolvimento, estando atualmente em um estado avançado de desenvolvimento.</p>
+                </div>
+                <div class="item">
+                    <h3>Projeto 4 - Desenvolvimento de um sistema de gerenciamento de medicamentos</h3>
+                    <p>Atualmente em desenvolvimento, o sistema está sendo desenvolvido com a utilização da framework
+                        .NET 10.0 com a utilização do Asp.NET Core MVC.</p>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Vítor Henrique Vercezi. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="JavaScript/script.js"></script>
+</body>
+
+</html>
