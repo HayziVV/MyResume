@@ -16,3 +16,6 @@ O projeto foi construído utilizando tecnologias web fundamentais:
 * **Educação:** Detalhes da minha formação na **Fatec Ribeirão Preto**.
 * **Habilidades:** Stack técnica focada em **C# (.NET 9.0/10.0)**, SQL e Web.
 * **Projetos:** Lista dos meus principais desenvolvimentos, incluindo sistemas de gestão e jogos.
+
+## LINK
+Link: >> https://hayzivv.github.io/MyResume/MyResume/ <<
